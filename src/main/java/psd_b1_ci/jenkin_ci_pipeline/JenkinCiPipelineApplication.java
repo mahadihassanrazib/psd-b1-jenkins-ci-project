@@ -8,11 +8,10 @@ import java.util.logging.Logger;
 
 @SpringBootApplication
 public class JenkinCiPipelineApplication {
-	static Logger logger = (Logger) LoggerFactory.getLogger(JenkinCiPipelineApplication.class);
+
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinCiPipelineApplication.class, args);
 		System.out.println("start");
-		logger.info("I am here");
 	}
 
 }
