@@ -11,7 +11,7 @@ public class JenkinCiPipelineApplication {
     static Logger logger = LoggerFactory.getLogger(JenkinCiPipelineApplication.class);
 
     public static void main(String[] args) {
-        logger.info("This is a test running job v1.");
+        logger.info("This is a test running job v3.");
         SpringApplication.run(JenkinCiPipelineApplication.class, args);
     }
 }
