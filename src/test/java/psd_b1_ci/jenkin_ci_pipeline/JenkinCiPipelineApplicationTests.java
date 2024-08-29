@@ -13,7 +13,7 @@ class JenkinCiPipelineApplicationTests {
 
     @Test
     void contextLoads() {
-        logger.info("This is a test class");
+        logger.info("This is a test class v2");
         assertEquals(true, true);
     }
 
