@@ -8,6 +8,7 @@ public class JenkinCiPipelineApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinCiPipelineApplication.class, args);
+		System.out.println("start");
 	}
 
 }
