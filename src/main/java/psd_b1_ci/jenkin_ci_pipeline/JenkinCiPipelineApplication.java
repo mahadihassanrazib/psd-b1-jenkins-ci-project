@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JenkinCiPipelineApplication {
 
-    private static final Logger logger = LoggerFactory.getLogger(JenkinCiPipelineApplication.class);
+    static Logger logger = LoggerFactory.getLogger(JenkinCiPipelineApplication.class);
 
     public static void main(String[] args) {
         logger.info("This is a test running job v1.");
